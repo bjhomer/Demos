@@ -1,0 +1,237 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B742E0BD1434B4EA005A06FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B742E0BC1434B4EA005A06FF /* Foundation.framework */; };
+		B742E0C01434B4EA005A06FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B742E0BF1434B4EA005A06FF /* main.m */; };
+		B742E0C41434B4EA005A06FF /* SingletonSpeed.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = B742E0C31434B4EA005A06FF /* SingletonSpeed.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B742E0B61434B4E9005A06FF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				B742E0C41434B4EA005A06FF /* SingletonSpeed.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B742E0B81434B4EA005A06FF /* SingletonSpeed */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = SingletonSpeed; sourceTree = BUILT_PRODUCTS_DIR; };
+		B742E0BC1434B4EA005A06FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B742E0BF1434B4EA005A06FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B742E0C21434B4EA005A06FF /* SingletonSpeed-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SingletonSpeed-Prefix.pch"; sourceTree = "<group>"; };
+		B742E0C31434B4EA005A06FF /* SingletonSpeed.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = SingletonSpeed.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B742E0B51434B4E9005A06FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B742E0BD1434B4EA005A06FF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B742E0AD1434B4E8005A06FF = {
+			isa = PBXGroup;
+			children = (
+				B742E0BE1434B4EA005A06FF /* SingletonSpeed */,
+				B742E0BB1434B4EA005A06FF /* Frameworks */,
+				B742E0B91434B4EA005A06FF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B742E0B91434B4EA005A06FF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B742E0B81434B4EA005A06FF /* SingletonSpeed */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B742E0BB1434B4EA005A06FF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B742E0BC1434B4EA005A06FF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B742E0BE1434B4EA005A06FF /* SingletonSpeed */ = {
+			isa = PBXGroup;
+			children = (
+				B742E0BF1434B4EA005A06FF /* main.m */,
+				B742E0C31434B4EA005A06FF /* SingletonSpeed.1 */,
+				B742E0C11434B4EA005A06FF /* Supporting Files */,
+			);
+			path = SingletonSpeed;
+			sourceTree = "<group>";
+		};
+		B742E0C11434B4EA005A06FF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B742E0C21434B4EA005A06FF /* SingletonSpeed-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B742E0B71434B4E9005A06FF /* SingletonSpeed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B742E0C71434B4EA005A06FF /* Build configuration list for PBXNativeTarget "SingletonSpeed" */;
+			buildPhases = (
+				B742E0B41434B4E9005A06FF /* Sources */,
+				B742E0B51434B4E9005A06FF /* Frameworks */,
+				B742E0B61434B4E9005A06FF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SingletonSpeed;
+			productName = SingletonSpeed;
+			productReference = B742E0B81434B4EA005A06FF /* SingletonSpeed */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B742E0AF1434B4E9005A06FF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = Instructure;
+			};
+			buildConfigurationList = B742E0B21434B4E9005A06FF /* Build configuration list for PBXProject "SingletonSpeed" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = B742E0AD1434B4E8005A06FF;
+			productRefGroup = B742E0B91434B4EA005A06FF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B742E0B71434B4E9005A06FF /* SingletonSpeed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B742E0B41434B4E9005A06FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B742E0C01434B4EA005A06FF /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B742E0C51434B4EA005A06FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		B742E0C61434B4EA005A06FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		B742E0C81434B4EA005A06FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingletonSpeed/SingletonSpeed-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B742E0C91434B4EA005A06FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SingletonSpeed/SingletonSpeed-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B742E0B21434B4E9005A06FF /* Build configuration list for PBXProject "SingletonSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B742E0C51434B4EA005A06FF /* Debug */,
+				B742E0C61434B4EA005A06FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B742E0C71434B4EA005A06FF /* Build configuration list for PBXNativeTarget "SingletonSpeed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B742E0C81434B4EA005A06FF /* Debug */,
+				B742E0C91434B4EA005A06FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B742E0AF1434B4E9005A06FF /* Project object */;
+}
