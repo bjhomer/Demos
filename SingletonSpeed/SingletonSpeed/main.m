@@ -24,6 +24,7 @@ static id dispatchVar = nil;
 			synchronizedVar = [[Test alloc] init];
 		}
 	}
+	
 	return synchronizedVar;
 }
 
@@ -103,6 +104,9 @@ int main (int argc, const char * argv[])
 {
 
 	@autoreleasepool {
+		// Initialize them the first time outside the loop, to avoid skewing results
+		[Test synchronizedInstance];
+		[Test dispatchOnceInstance];
 	    
 		CFTimeInterval a = singleThreadedSynchronized();
 		CFTimeInterval b = singleThreadedDispatch();

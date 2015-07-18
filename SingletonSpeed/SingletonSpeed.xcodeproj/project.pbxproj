@@ -230,6 +230,7 @@
 				B742E0C91434B4EA005A06FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
